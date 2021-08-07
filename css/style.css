@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6{
 .container{
     max-width: 1160px;
     margin: auto;
+    margin-bottom: 3rem;
 }
 /* header start */
 .navbar{
@@ -77,4 +78,45 @@ h1,h2,h3,h4,h5,h6{
 }
 .intro-img img{
     width: 100%;
+}
+/* categories section */
+.categorie-section{
+    text-align: center;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-top: 2rem;
+}
+.single-categorie{
+    padding: 40px;
+    background: #FFFFFF;
+    width: 267px;
+    height: 270px;
+}
+.single-categorie:hover{
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+}
+.single-categorie img{
+    width: 92px;
+    height: 78px;
+}
+.single-categorie h3,p{
+    margin-top: 10px;
+}
+/* destination section start */
+.section-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.destinations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.single-destination img{
+    width: 350px;
+    height: 370px;
 }
