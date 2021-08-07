@@ -1,0 +1,80 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Volkhov', serif;
+
+}
+/* global */
+.container{
+    max-width: 1160px;
+    margin: auto;
+}
+/* header start */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    font-weight: 600;
+    color: #212832;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-menu{
+    cursor: pointer;
+    margin: 0 6px;
+    padding: 6px 15px;
+}
+/* hero section start */
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.hero-btn-play{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-btn{
+    background-color: #F1A501;
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.orange-color{
+    color: #DF6951;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fa-play-circle{
+    font-size: 30px;
+}
+.intro-text h1{
+    color: #181E4B;
+    font-size: 84px;
+    width: 545px;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+}
+.intro-text p{
+    width: 430px;
+    margin-top: 20px;
+}
+.intro-img img{
+    width: 100%;
+}
